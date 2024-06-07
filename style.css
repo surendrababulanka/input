@@ -17,7 +17,6 @@ a{
     width: 420px;
     padding: 20px;
     background-color: white;
-
 }
 .input-container .register-link a{
     color: red;
@@ -25,11 +24,7 @@ a{
 .input-container .remember-forget a{
     color: black;
 }
-.container{
-    align-items: center;
-}
 .container .logo{
-    align-items: center;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -53,11 +48,9 @@ form{
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* row-gap: 20px; */
 }
 .input-container .input-box input{
     height: 40px;
-    /* border: none; */
     padding: 10px;
 }
 .input-container button{
