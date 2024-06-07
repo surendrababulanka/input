@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.input-container{
+    width: 420px;
+    padding: 20px;
+    background-color: white;
+
+}
+.input-container .register-link a{
+    color: red;
+}
+.input-container .remember-forget a{
+    color: black;
+}
+.container{
+    align-items: center;
+}
+.container .logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.container .logo img{
+    width: 70px;
+    border-radius: 50%;
+}
+.input-container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-container p{
+    font-size: 16px;
+    text-align: center;
+}
+form{
+    line-height: 40px;
+}
+.input-container .input-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* row-gap: 20px; */
+}
+.input-container .input-box input{
+    height: 40px;
+    /* border: none; */
+    padding: 10px;
+}
+.input-container button{
+    width: 100%;
+    margin: 20px 0px;
+    height: 40px;
+    background: linear-gradient(to right, red 0%, #4c46bd 100%);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.remember-forget{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
